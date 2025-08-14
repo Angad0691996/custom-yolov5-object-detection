@@ -1,0 +1,8 @@
+# Ignore large files and directories
+images/
+labels/
+runs/
+yolo*.pt
+*.odt
+*.zip
+*.txt

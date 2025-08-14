@@ -1,0 +1,12 @@
+# data.yaml
+
+# Root path to the dataset folder
+path: /home/angad/YOLO_tut/custom_yolo_dataset_relabel
+
+# Relative paths to training and validation image folders (from 'path')
+train: images/train
+val: images/val
+
+# List of class names
+names: ['company_id', 'f14_toy_plane', 'jbl_charging_cable', 'jbl_headset', 'wallet']
+
