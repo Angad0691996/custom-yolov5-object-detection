@@ -1,0 +1,12 @@
+#run command
+cd /YOLO_tut/custom_yolo_dataset_relabel$
+
+#note - there are two trained models at this path "runs/detect/train2/weights/" best.pt and last.pt, good one in last.py
+
+#with inherent webcam
+yolo task=detect mode=predict model=runs/detect/train2/weights/last.pt source=0 device=0 show=True
+
+#with external webcam
+yolo task=detect mode=predict model=runs/detect/train2/weights/last.pt source=2 show=True
+
+

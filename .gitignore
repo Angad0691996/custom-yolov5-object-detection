@@ -1,8 +1,31 @@
-# Ignore large files and directories
+# ===========================
+# YOLOv5 Custom Project .gitignore
+# ===========================
+
+# --- Datasets (large, not for GitHub) ---
 images/
 labels/
+datasets/
+
+# --- Training outputs (can be GBs) ---
 runs/
-yolo*.pt
-*.odt
+
+# --- Weights ---
+# Ignore all weights except keep best.pt
+*.pt
+!best.pt
+
+# --- Logs / reports ---
+*.log
+*.tmp
 *.zip
-*.txt
+*.odt
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+
+# --- OS / editor system files ---
+.DS_Store
+.~*
+

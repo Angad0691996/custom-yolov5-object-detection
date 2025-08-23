@@ -1,0 +1,38 @@
+100 epochs completed in 0.039 hours.
+Optimizer stripped from runs/detect/train2/weights/last.pt, 6.3MB
+Optimizer stripped from runs/detect/train2/weights/best.pt, 6.3MB
+
+Validating runs/detect/train2/weights/best.pt...
+Ultralytics 8.3.174 🚀 Python-3.9.23 torch-2.5.1+cu118 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 3902MiB)
+Model summary (fused): 72 layers, 3,006,623 parameters, 0 gradients, 8.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00,  8.80it/s]
+                   all         19         19      0.891      0.892      0.948      0.641
+            company_id          5          5      0.774      0.696      0.761        0.3
+         f14_toy_plane          4          4      0.958          1      0.995      0.796
+    jbl_charging_cable          1          1      0.822          1      0.995      0.697
+           jbl_headset          2          2      0.899          1      0.995      0.746
+                wallet          7          7          1      0.766      0.995      0.668
+Speed: 0.3ms preprocess, 2.9ms inference, 0.0ms loss, 1.1ms postprocess per image
+Results saved to runs/detect/train2
+💡 Learn more at https://docs.ultralytics.com/modes/train
+
+
+
+
+163 epochs completed in 1.286 hours.
+Optimizer stripped from runs/detect/train5/weights/last.pt, 6.3MB
+Optimizer stripped from runs/detect/train5/weights/best.pt, 6.3MB
+
+Validating runs/detect/train5/weights/best.pt...
+Ultralytics 8.3.174 🚀 Python-3.9.23 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 3902MiB)
+Model summary (fused): 72 layers, 3,006,623 parameters, 0 gradients, 8.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:00<00:00, 16.92it/s]
+                   all         19         19      0.916      0.922       0.95      0.676
+            company_id          5          5      0.753      0.613      0.769      0.385
+         f14_toy_plane          4          4          1      0.997      0.995      0.789
+    jbl_charging_cable          1          1      0.892          1      0.995      0.697
+           jbl_headset          2          2      0.956          1      0.995      0.846
+                wallet          7          7      0.978          1      0.995      0.665
+Speed: 0.3ms preprocess, 8.0ms inference, 0.0ms loss, 1.5ms postprocess per image
+Results saved to runs/detect/train5
+💡 Learn more at https://docs.ultralytics.com/modes/train

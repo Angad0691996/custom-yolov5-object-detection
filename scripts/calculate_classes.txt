@@ -1,0 +1,2 @@
+#command ti calculate classes
+find dataset/labels -type f -name "*.txt" -exec awk '{print $1}' {} + | sort -n | uniq -c
