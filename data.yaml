@@ -4,7 +4,7 @@
 path: /home/angad/YOLO_tut/custom_yolo_dataset_relabel
 
 # Relative paths to training and validation image folders (from 'path')
-train: images/train
+train: images/train_aug
 val: images/val
 
 # List of class names
