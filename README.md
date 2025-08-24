@@ -50,9 +50,10 @@ yolo task=detect mode=predict model=best.pt source=0 device=0 show=True
 ##Run inference on an image or video:
 yolo task=detect mode=predict model=best.pt source=examples/demo.jpg
 
-##🎥 Demo Video
-Watch a demo of the model in action here:
-▶ Watch Demo (Google Drive)
+## 🎥 Demo Video  
+Watch a demo of the model in action here:  
+[▶ Watch Demo (Google Drive)](https://drive.google.com/file/d/1bJM3-7dt9BBpAfIOxFMdAFDF4I9GwmbD/view?usp=drive_link)
+
 
 ##📊 Results
 Successfully trained on 5 custom classes
