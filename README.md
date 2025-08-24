@@ -61,4 +61,4 @@ Real-time detection (30+ FPS on GPU + CUDA)
 Robust performance across varying lighting and angles
 
 ##👤 Author
-Angad Singh
+Angad Bandal
